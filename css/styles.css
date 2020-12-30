@@ -6,6 +6,7 @@ body {
         background-attachment: fixed;
         background-color: #19787c;
         margin-bottom: 6vw;
+        font-family: sans-serif;
 }
 h1 {
     color: #ffcb9a;
@@ -15,7 +16,8 @@ h1 {
     text-align: center;
 }
 p {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.5;
     color: white;
     padding-right: 15vw;
     padding-left: 15vw;
