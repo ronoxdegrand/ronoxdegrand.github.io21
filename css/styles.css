@@ -66,23 +66,3 @@ p {
     background-color: #d9b08c;
     color: white;
   }
-
-  #myBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 100px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: #d9b08c;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 18px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  }
-  
-  #myBtn:hover {
-    background-color: #d1e8e2;
-  }
