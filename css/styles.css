@@ -16,6 +16,9 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+
+  display:flex;
+  justify-content:center;
 }
 .topnav a {
   float: left;
@@ -34,6 +37,9 @@ body {
 .topnav a.active {
   background-color: #d9b08c;
   color: white;
+}
+.topnav .icon {
+  display: none;
 }
 
 h1 {
@@ -79,5 +85,26 @@ h1 {
     float: right;
     margin:20px;
     margin-right: 15vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a {
+    display:none;
+  }
+  .topnav a.icon {
+    float: none;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+    display: block;
+  }
+  .topnav.responsive a.icon {
+    display: none;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
   }
 }
