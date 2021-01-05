@@ -41,6 +41,9 @@ body {
 .topnav .icon {
   display: none;
 }
+.topnav .iconback {
+  display: none;
+}
 
 h1 {
     color: #ffcb9a;
@@ -102,6 +105,10 @@ h1 {
   }
   .topnav.responsive a.icon {
     display: none;
+  }
+  .topnav.responsive a.iconback {
+    float:none;
+    display: block;
   }
   .topnav.responsive a {
     float: none;
