@@ -1,12 +1,12 @@
 body {
-    margin: 0px;
-        background-image: linear-gradient(#3ba1a5, #19787c);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-attachment: fixed;
-        background-color: #19787c;
-        margin-bottom: 6vw;
-        font-family: sans-serif;
+  margin: 0px;
+  background-image: linear-gradient(#3ba1a5, #19787c);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-color: #19787c;
+  margin-bottom: 75px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .topnav {
@@ -98,6 +98,7 @@ h1 {
   .topnav a.icon {
     float: none;
     display: block;
+    width: 100%;
   }
   .topnav.responsive {
     position: relative;
