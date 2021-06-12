@@ -29,9 +29,29 @@ body {
   width: 20px;
   display: flex;
 }
-
 .topnav > .links > a > img {
   width: 100%;
+}
+.topnav > .links > .li:hover {
+  filter: invert(26%) sepia(98%) saturate(1604%) hue-rotate(179deg) brightness(96%) contrast(101%);
+}
+.topnav > .links > .ig:hover {
+  filter: invert(29%) sepia(37%) saturate(3863%) hue-rotate(300deg) brightness(85%) contrast(84%);
+}
+.topnav > .links > .tt:hover {
+  filter: invert(52%) sepia(49%) saturate(911%) hue-rotate(165deg) brightness(94%) contrast(103%);
+}
+.topnav > .links > .rd:hover {
+  filter: invert(34%) sepia(91%) saturate(2954%) hue-rotate(359deg) brightness(99%) contrast(109%);
+}
+.topnav > .links > .fb:hover {
+  filter: invert(33%) sepia(7%) saturate(5006%) hue-rotate(183deg) brightness(95%) contrast(86%);
+}
+.topnav > .links > .yt:hover {
+  filter: invert(17%) sepia(77%) saturate(6218%) hue-rotate(1deg) brightness(105%) contrast(140%);
+}
+.topnav > .links > .gh:hover {
+  filter: invert(36%) sepia(11%) saturate(2254%) hue-rotate(222deg) brightness(95%) contrast(86%);
 }
 
 .topnav > .title {
@@ -40,13 +60,11 @@ body {
   justify-content: flex-start;
   padding-left: 8px;
 }
-
 .topnav > .title > input {
   padding: 8px;
   width: 20px;
   display: flex;
 }
-
 .topnav > .title > p {
   line-height: 28px;
   margin-left: 8px;
@@ -57,7 +75,6 @@ body {
   justify-content:center;
   line-height: 35px;
 }
-
 .topnav > .pages > a {
   width: 150px;
   display: block;
@@ -78,6 +95,7 @@ body {
   background-color: #215C47;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .topnav .icon {
   display: none;
 }
