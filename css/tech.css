@@ -3,7 +3,7 @@
     margin: 75px;
 }
 
-img {
+.pagewrap > img {
     margin: 20px;
     width: 250px;
     border-radius: 20px;

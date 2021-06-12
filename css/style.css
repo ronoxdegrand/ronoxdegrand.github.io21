@@ -7,18 +7,58 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 0;
   width: 100%;
   height: 60px;
-  line-height: 35px;
 
   display:flex;
-  justify-content:center;
+  justify-content:space-between;
 }
-.topnav a {
+
+.topnav > .links {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 8px;
+}
+.topnav > .links > a {
+  padding: 8px;
+  width: 20px;
+  display: flex;
+}
+
+.topnav > .links > a > img {
+  width: 100%;
+}
+
+.topnav > .title {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 8px;
+}
+
+.topnav > .title > input {
+  padding: 8px;
+  width: 20px;
+  display: flex;
+}
+
+.topnav > .title > p {
+  line-height: 28px;
+  margin-left: 8px;
+}
+
+.topnav > .pages {
+  display:flex;
+  justify-content:center;
+  line-height: 35px;
+}
+
+.topnav > .pages > a {
   width: 150px;
   display: block;
   color: #000000;
@@ -29,11 +69,11 @@ body {
   border-radius: 12px;
   margin: 12px;
 }
-.topnav a:hover {
+.topnav > .pages > a:hover {
   color: white;
   background: #AF7B2D;
 }
-.topnav a.active {
+.topnav > .pages > a.active {
   color: white;
   background-color: #215C47;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
