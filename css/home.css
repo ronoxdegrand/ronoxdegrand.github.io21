@@ -1,46 +1,36 @@
-h1 {
-    color: #ffcb9a;
-    padding-top: 6vw;
-    padding-right: 15vw;
-    padding-left: 15vw;
-    text-align: center;
-}
 .mainpic {
-  padding-top: 95px;
   width: 100%;
   text-align: center;
 }
 .mainpic img {
   width:250px;
   height:250px;
-  border-radius: 8px;
-  /*float: right;
-  margin:20px;
-  margin-right: 15vw;*/
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.content {
-    width: 100%;
-}
-.content p {
-    font-size: 18px;
-    line-height: 1.5;
-    color: black;
-    padding-right: 15vw;
-    padding-left: 15vw;
-    padding-bottom: 1vw;
-    text-align: justify;
+p {
+  text-align: left;
 }
 
-@media only screen and (min-width: 768px) {
+.homepadding {
+  width: auto;
+}
+
+@media only screen and (min-width: 750px) {
     .mainpic {
-      padding-top: 75px;
       text-align: none;
     }
     .mainpic img {
       float: right;
-      margin:20px;
-      margin-right: 15vw;
+      margin-left:20px;
+      margin-bottom: 20px;
     }
+}
+
+@media only screen and (min-width: 900px) {
+  .homepadding {
+    width: 720px;
+    margin: auto;
+  }
 }
