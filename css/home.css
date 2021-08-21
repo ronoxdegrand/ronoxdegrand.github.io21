@@ -34,3 +34,22 @@ p {
     margin: auto;
   }
 }
+
+:root {
+  --clr-primary: #215C47;
+}
+.darkmode {
+  --clr-light: #215C47;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-light: #215C47;
+    --clr-primary: #FFFFFF;
+  }
+
+  .darkmode {
+    --clr-light: #FFFFFF;
+    --clr-primary: #215C47;
+  }
+}
